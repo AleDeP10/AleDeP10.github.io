@@ -1,0 +1,69 @@
+Alessandro De Prato Developer | Full Stack Developer | Analyst
+
+Contact Information: 
+Phone: +39 328 2147515 
+Email: alessandro.deprato@outlook.com 
+Location: Tolmezzo (UD) 
+Date of Birth: 10.10.1983
+
+Profile: Dedicated developer, consistently engaged in innovation and advancements in technology and information technology. 
+Curious, dynamic, and adaptable, I am passionate about learning and implementing new technologies. I thrive in team environments 
+and am committed to the success of projects.
+
+Skills:
+•	React.js
+•	React Native
+•	Redux
+•	TypeScript
+•	Storybook
+•	Jest
+•	Tailwind CSS
+•	Bootstrap
+•	SASS/LESS
+•	C# Spring
+•	SpringBoot
+•	Java
+•	Azure
+
+Education: UniUD - 2011 Bachelor of Science in Computer Science Grade: 100/110
+
+Professional Experience:
+
+Banca Sella | Biella Front-End Engineer (2021 - 2024)
+•	Development and onboarding of customers for customized solutions, including new functionalities, bug fixes, and optimization. 
+        Built the MVP for a customer-facing application and handled the maintenance of existing Internet Banking.
+•	Technologies: HTML5, CSS3, React.js, Redux, Bootstrap, Java, TypeScript, Git, Jest.
+
+BeanTech | Udine Software Developer (2017 - 2021)
+•	Developed enterprise applications across various industries. Participated in the design, development, and deployment of software 
+        solutions tailored to client needs.
+•	Technologies: C#, HTML5, CSS3, JavaScript, SQL Server, Git, Microsoft Azure, React.js, React Native, Bootstrap, LESS.
+TecnoTeca | Udine Front-End Developer (2015 - 2017)
+•	Managed the customization of the CMDB Ready2Use platform for the client IMA Group.
+•	Technologies: Java, PostgreSQL, TypeScript, React.js, SASS.
+
+CRIF | Bologna Front-End Developer (2013 - 2015)
+•	Designed and developed back-end development solutions. Participated in UI testing phases, including unit and integration testing.
+•	Technologies: HTML5, CSS3, JavaScript, AngularJS, SQL Server, Git, Bootstrap, LESS, Selenium WebDriver.
+
+Additional Skills:
+•	Collaboration
+•	Communication
+•	Learning
+•	Organization
+•	Problem-solving
+•	Teamwork
+
+Languages:
+•	Italian
+•	English
+
+Extra:
+•	In Australia (2011/2013)
+•	Multicultural Team
+•	English Fluency
+•	Versatility
+
+Relevant Projects:
+•	https://github.com/AleDeP10/playground-server/
+•	https://github.com/AleDeP10/playground-frontend/ 
