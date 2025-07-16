@@ -1,0 +1,37 @@
+{
+  "topbar.title": "PORTFOLIO di Alessandro De Prato",
+
+  "profile.header": "👤 Profilo professionale",
+  "profile.details.line1": "Sviluppatore appassionato, da sempre immerso nell'innovazione e nell'evoluzione tecnologica.",
+  "profile.details.line2": "Curioso, dinamico e versatile: apprendo rapidamente e amo sperimentare nuove soluzioni.",
+  "profile.details.line3": "Collaboro con entusiasmo nei team, contribuendo attivamente alla riuscita dei progetti.",
+
+  "curriculum.header": "📝 Curriculum",
+  "curriculum.details": "Puoi scaricare il mio curriculum in formato PDF ai link seguenti:",
+
+  "contacts.header": "📬 Contatti",
+  "contacts.details": "Puoi contattarmi ai seguenti recapiti:",
+  "contacs.email": "Email:",
+  "contacs.mobile": "Cellulare:",
+
+  "projects.header": "🎨 Progetti rilevanti",
+  "projects.details": "I progetti inclusi nel portfolio rappresentano una selezione delle esperienze più significative e delle competenze acquisite nel corso della carriera. Espandi gli accordion per maggiori informazioni. Puoi vederli in esecuzione cliccando sul live link!",
+  "projects.repo": "Repository github per il codice: ",
+  "projects.live": "Esecuzione live del progetto: ",
+  "projects.technologies": "Tecnologie coinvolte: ",
+  "projects.description": "Descrizione ",
+
+  "project1.name": "TodoList - Implementazione AngularJS + Redux",
+  "project1.description.short": "Implementazione della classica TodoList con AngularJS in stile React per cache filtri e modali.",
+  "project1.description.line1": "Il progetto TodoList dimostra l'integrazione di AngularJS con un backend ASP.NET Core, presentando un esempio full-stack con architettura modulare e logica di stato condivisa.",
+  "project1.description.line2": "L'applicazione utilizza un database PostgreSQL in cui vengono archiviati i dati delle attività e degli utenti, supportando il filtraggio sia lato server che lato client tramite Redux Classic.",
+  "project1.description.line3": "Sviluppato come esercizio focalizzato sulle competenze, questo progetto enfatizza scelte ingegneristiche pragmatiche, la manutenibilità del codice e la separazione tra frontend e backend.",
+  "project1.reactynote1": "Per abilitare un caching nell'applicazione dei filtri è stato introdotto Redux-classic per il mantenimento dello stato in linea con le applicazioni React",
+  "project1.reactynote2": "Per riutilizzare il codice delle modali, si ha inserito direttamente il codice HTML del contenuto all'interno del tag, seguendo un approccio simile a quello utilizzato in React con la proprietà $children per popolare il contenuto.",
+
+  "project2.name": "TodoList - Implementazione del backend .NET",
+  "project2.description.short": "API layer for managing a minimal database with User and Task. Accessible via Swagger.",
+  "project2.description.line1": "Implementazione minimale con ASP.NET delle API necessarie al funzionamento del progetto TodoList, documentazione e test ottenibili sulla pagina Swagger.",
+  "project2.description.line2": "Lo scaffolding è stato realizzato con EntityFramework a partire da un database sviluppato per un precedente progetto e comprende le entità User e Task, fornendo i metodi necessari ad eseguirvi le operazioni CRUD.",
+  "project2.description.line3": "Per la ricerca dei Task si ha previsto la possibilità di cercare la descrizione in like, restringere a quelli assegnati ad un certo utente ed indicare in un array gli stati (\"TODO\", \"IN PROGRESS\", \"DONE\") che si vuol visualizzare."
+}

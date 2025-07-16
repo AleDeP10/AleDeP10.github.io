@@ -1,0 +1,39 @@
+{
+  "name": "aledep10.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio Project of Alessandro De Prato",
+  "main": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist && mkdir dist",
+    "build-css": "sass styles/style.scss dist/style.css",
+    "copy-static": "node copy-static.js",
+    "build": "npm run clean && npm run build-css && npm run copy-static",
+    "serve": "npm run build && npx serve dist --listen 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleDeP10/AleDeP10.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "vanilla-js",
+    "bootstrap",
+    "scss"
+  ],
+  "author": "Alessandro De Prato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AleDeP10/AleDeP10.github.io/issues"
+  },
+  "homepage": "https://github.com/AleDeP10/AleDeP10.github.io#readme",
+  "devDependencies": {
+    "sass": "^1.89.2",
+    "serve": "^14.2.4"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "rimraf": "^6.0.1"
+  }
+}

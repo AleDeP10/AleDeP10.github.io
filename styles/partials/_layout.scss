@@ -1,0 +1,128 @@
+@use "variables" as vars;
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #00c6ff, #7fdd8c);
+}
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pageContainer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 766px) {
+  .pageContainer {
+    width: 100%;
+    margin: 4px auto;
+    padding: 6px;
+  }
+}
+
+@media (min-width: 767px) {
+  .pageContainer {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: vars.$gradient-topbar;
+  color: #fff;
+}
+
+.spacer-vertical {
+  height: 1.5rem;
+}
+
+.section {
+  //width: 100%;
+  background-color: azure;
+  padding: 1rem 1.5rem;
+}
+
+.header {
+  background-color: #7fdd8c;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 12px;
+  padding: 1rem 1.5rem;
+}
+
+@media (max-width: 766px) {
+  .profile-mobile {
+    display: block;
+  }
+  .profile-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .profile-mobile {
+    display: none;
+  }
+  .profile-desktop {
+    display: block;
+  }
+}
+
+.profile {
+  //display: flex;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+}
+
+.list-left {
+  text-align: right;
+  width: 50%;
+}
+
+.list-right {
+  text-align: left;
+  width: 50%;
+}
+
+.project {
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+}
+
+.technologies {
+  font-weight: bold;
+}
+
+.thumbnail {
+  width: 180px;
+  margin-right: 1rem;
+}
+
+.full-image {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 1rem;
+}

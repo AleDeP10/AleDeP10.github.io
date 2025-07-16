@@ -1,0 +1,73 @@
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    cursor: pointer;
+
+    .project-info {
+      flex-grow: 1;
+
+      .project-name {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+
+      .thumbnail {
+        width: 180px;
+        margin-right: 1rem;
+      }
+
+      .live-link,
+      .repo-link {
+        display: inline-block;
+        margin-right: 0.5rem;
+        color: #007bff;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .technologies {
+        font-size: 0.9rem;
+        color: #666;
+      }
+    }
+
+    .accordion-toggle {
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
+
+  &-content {
+    display: none;
+    padding: 1rem;
+    background-color: #fff;
+
+    .full-image {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    .description {
+      font-size: 1rem;
+      color: #333;
+    }
+  }
+
+  &[aria-expanded="true"] &-content {
+    display: block;
+  }
+}
