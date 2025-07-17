@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: #1C2B3A;
-  background: linear-gradient(to right, #00c6ff, #7fdd8c);
+  background: linear-gradient(to right, #f7e095, #f3b42b);
 }
 
 a {
@@ -44,7 +44,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  background: linear-gradient(135deg, #6A11CB 0%, #2575fc 100%);
+  background: linear-gradient(135deg, #5a6bbd 0%, #3e13a1 100%);
   color: #fff;
 }
 
@@ -58,7 +58,7 @@ ul {
 }
 
 .header {
-  background-color: #7fdd8c;
+  background-color: #5a9fcf;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -179,7 +179,7 @@ ul {
   color: #666;
 }
 .technologies span {
-  background-color: #eaf7ff;
+  background-color: #e9a30b;
   padding: 0.4rem 0.8rem;
   border-radius: 4px;
   font-size: 0.9rem;
@@ -197,7 +197,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
-  background-color: #FFB370;
+  background-color: #6fcfb8;
   cursor: pointer;
 }
 .accordion-header .project-info {
