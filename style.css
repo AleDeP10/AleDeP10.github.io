@@ -1,0 +1,247 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #00c6ff, #7fdd8c);
+}
+
+a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pageContainer {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+  .pageContainer {
+    width: 100%;
+    margin: 4px auto;
+    padding: 6px;
+  }
+}
+@media (min-width: 768px) {
+  .pageContainer {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, #6A11CB 0%, #2575fc 100%);
+  color: #fff;
+}
+
+.spacer-vertical {
+  height: 1.5rem;
+}
+
+.section {
+  background-color: azure;
+  padding: 1rem 1.5rem;
+}
+
+.header {
+  background-color: #7fdd8c;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 1rem 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .profile-mobile {
+    display: block;
+  }
+  .profile-desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .profile-mobile {
+    display: none;
+  }
+  .profile-desktop {
+    display: block;
+  }
+}
+.profile-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-photo {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-info {
+  flex: 1 1 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.list-left {
+  text-align: right;
+  width: 50%;
+}
+
+.list-right {
+  text-align: left;
+  width: 50%;
+}
+
+.information {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project, .project-mobile {
+  display: block;
+  padding: 1rem;
+}
+
+.project-desktop {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (max-width: 767px) {
+  .project-mobile {
+    display: block;
+  }
+  .project-desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .project-mobile {
+    display: none;
+  }
+  .project-desktop {
+    display: flex;
+  }
+}
+.thumbnail {
+  margin-right: 1rem;
+}
+
+.full-image {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .thumbnail {
+    width: 120px;
+  }
+}
+@media (min-width: 768px) {
+  .thumbnail {
+    width: 180px;
+  }
+}
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+.technologies span {
+  background-color: #eaf7ff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.accordion-header .project-info {
+  flex-grow: 1;
+}
+.accordion-header .project-info .project-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.accordion-header .project-info .thumbnail {
+  width: 180px;
+  margin-right: 1rem;
+}
+.accordion-header .project-info .live-link,
+.accordion-header .project-info .repo-link {
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
+.accordion-header .project-info .live-link:hover,
+.accordion-header .project-info .repo-link:hover {
+  text-decoration: underline;
+}
+.accordion-header .accordion-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.accordion-content {
+  display: none;
+  padding: 1rem;
+  background-color: #fff;
+}
+.accordion-content .full-image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.accordion-content .description {
+  font-size: 1rem;
+  color: #333;
+}
+.accordion[aria-expanded=true] .accordion-content {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

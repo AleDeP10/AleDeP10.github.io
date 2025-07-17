@@ -9,7 +9,11 @@ async function main() {
   await copy("assets", "dist/assets");
   await copy("src", "dist/src");
 
+  await copy("dist/style.css", "style.css");
+
   console.log("✅ Static files copied.");
+
+
 }
 
 main().catch((err) => {
