@@ -55,31 +55,31 @@
           <div class="header">
             <h3 class="h5 m-0" data-label="profile.header"></h3>
           </div>
-          <div class="profile">
-            <img src="assets/images/ADP foto.png" alt="Profile picture" />
+          <div class="profile-column">
+            <img
+              src="assets/images/ADP foto.png"
+              alt="Profile picture"
+              class="full-image"
+            />
             <p>
               <span data-label="profile.details.line1"></span><br />
               <span data-label="profile.details.line2"></span><br />
               <span data-label="profile.details.line3"></span><br />
             </p>
-            <div class="d-flex justify-content-between gap-3 skills fw-bold">
-              <div class="me-3 list-left">
-                <ul>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>SpringBoot</li>
-                  <li>.NET</li>
-                  <li>TypeScript</li>
-                </ul>
+            <div class="skills d-flex justify-content-center gap-3 fw-bold">
+              <div class="d-flex flex-column me-2 text-end technologies">
+                <span>React</span>
+                <span>Redux</span>
+                <span>SpringBoot</span>
+                <span>.NET</span>
+                <span>TypeScript</span>
               </div>
-              <div class="ms-3 list-right">
-                <ul>
-                  <li>Tailwind</li>
-                  <li>Bootstrap</li>
-                  <li>Azure</li>
-                  <li>Docker</li>
-                  <li>Scrum</li>
-                </ul>
+              <div class="d-flex flex-column ms-2 text-start technologies">
+                <span>Tailwind</span>
+                <span>Bootstrap</span>
+                <span>Azure</span>
+                <span>Docker</span>
+                <span>Scrum</span>
               </div>
             </div>
           </div>
@@ -89,38 +89,34 @@
           <div class="header">
             <h3 class="h5 m-0" data-label="profile.header"></h3>
           </div>
-          <div class="row profile">
-            <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="profile-row">
+            <div class="profile-photo">
               <img
                 src="assets/images/ADP foto.png"
                 alt="Profile picture"
                 class="full-image"
               />
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 m-1">
+            <div class="profile-info">
               <p>
                 <span data-label="profile.details.line1"></span><br />
                 <span data-label="profile.details.line2"></span><br />
                 <span data-label="profile.details.line3"></span><br />
               </p>
-              <div class="d-flex justify-content-between gap-3 skills fw-bold">
-                <div class="me-3 list-left">
-                  <ul>
-                    <li>React</li>
-                    <li>Redux</li>
-                    <li>SpringBoot</li>
-                    <li>.NET</li>
-                    <li>TypeScript</li>
-                  </ul>
+              <div class="skills d-flex justify-content-center gap-3">
+                <div class="d-flex flex-column me-2 text-end technologies">
+                  <span>React</span>
+                  <span>Redux</span>
+                  <span>SpringBoot</span>
+                  <span>.NET</span>
+                  <span>TypeScript</span>
                 </div>
-                <div class="ms-3 list-right">
-                  <ul>
-                    <li>Tailwind</li>
-                    <li>Bootstrap</li>
-                    <li>Azure</li>
-                    <li>Docker</li>
-                    <li>Scrum</li>
-                  </ul>
+                <div class="d-flex flex-column ms-2 text-start technologies">
+                  <span>Tailwind</span>
+                  <span>Bootstrap</span>
+                  <span>Azure</span>
+                  <span>Docker</span>
+                  <span>Scrum</span>
                 </div>
               </div>
             </div>
@@ -131,7 +127,7 @@
       <div class="spacer-vertical"></div>
 
       <div class="container">
-        <div class="row align-items-star">
+        <div class="row gx-4 align-items-start information">
           <div class="col-12 col-md-6 section">
             <div class="header">
               <h3 data-label="curriculum.header"></h3>
@@ -171,177 +167,263 @@
 
       <div class="spacer-vertical"></div>
 
-      <div class="section">
-        <div class="header">
-          <h3 data-label="projects.header"></h3>
-        </div>
-        <p data-label="projects.details"></p>
-
-        <div class="accordion" data-code="proj1">
-          <div
-            class="d-flex justify-content-between align-items-center accordion-header"
-          >
-            <h4 data-label="project1.name"></h4>
-            <button class="accordion-toggle" aria-expanded="false">🔽</button>
+      <div class="container">
+        <div class="gx-4 section">
+          <div class="header">
+            <h3 data-label="projects.header"></h3>
           </div>
+          <p data-label="projects.details"></p>
 
-          <div class="d-flex align-items-center">
-            <div class="d-flex accordion-content-coll project">
-              <div class="col-left">
-                <img
-                  src="/assets/images/TodoList-angularjs.png"
-                  alt="TodoList AngularJS thumbnail"
-                  class="thumbnail"
-                />
-              </div>
-              <div class="col-right">
-                <div class="d-flex gap-2 links">
-                  <a
-                    href="https://github.com/AleDeP10/TodoList"
-                    target="_blank"
-                  >
-                    Repo
-                  </a>
-                  <a
-                    href="https://frontend-angularjs.onrender.com"
-                    target="_blank"
-                  >
-                    Live
-                  </a>
+          <div class="accordion" data-code="proj1">
+            <div
+              class="d-flex justify-content-between align-items-center accordion-header"
+            >
+              <h4 data-label="project1.name"></h4>
+              <button class="accordion-toggle" aria-expanded="false">🔽</button>
+            </div>
+
+            <div class="d-flex align-items-center">
+              <div class="d-flex accordion-content-coll">
+                <div class="project-mobile">
+                  <div class="d-flex">
+                    <div class="col-left">
+                      <img
+                        src="/assets/images/TodoList-angularjs.png"
+                        alt="TodoList AngularJS thumbnail"
+                        class="thumbnail"
+                      />
+                    </div>
+                    <div class="col-right">
+                      <div class="d-flex flex-column gap-2 links">
+                        <a
+                          href="https://github.com/AleDeP10/TodoList"
+                          target="_blank"
+                        >
+                          Repo
+                        </a>
+                        <a
+                          href="https://frontend-angularjs.onrender.com"
+                          target="_blank"
+                        >
+                          Live
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="description"
+                    data-label="project1.description.short"
+                  ></div>
+                  <div class="d-flex flex-wrap gap-2 technologies">
+                    <span>AngularJS</span><span>Bootstrap</span>
+                    <span>Redux-classic</span><span>Scss</span>
+                    <span>Nginx</span><span>Docker</span>
+                  </div>
                 </div>
-                <div
-                  class="description"
-                  data-label="project1.description.short"
-                ></div>
-                <div class="d-flex gap-2 technologies">
-                  <span>AngularJS</span>• <span>Bootstrap</span>•
-                  <span>Redux-classic</span>• <span>Scss</span>•
-                  <span>Nginx</span>•
-                  <span>Docker</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="d-none flex-column accordion-content-exp project">
-            <div class="d-flex gap-2 mb-2 links">
-              <span data-label="projects.repo"></span>
-              <a href="https://github.com/AleDeP10/TodoList" target="_blank">
-                Repo
-              </a>
-              •
-              <span data-label="projects.live"></span>
-              <a href="https://frontend-angularjs.onrender.com" target="_blank">
-                Live
-              </a>
-            </div>
-            <img
-              src="/assets/images/TodoList-angularjs.png"
-              alt="TodoList AngularJS full image"
-              class="full-image"
-            />
-            <div class="d-flex gap-2 technologies mb-2">
-              <span data-label="projects.technologies"></span>
-              <span>AngularJS</span>• <span>Bootstrap</span>•
-              <span>Redux-classic</span>• <span>Scss</span>• <span>Nginx</span>•
-              <span>Docker</span>
-            </div>
-            <div class="text-start">
-              <div class="mb-2">
-                <h6 class="fw-bold" data-label="projects.description"></h6>
-                <span data-label="project1.description.line1"></span><br />
-                <span data-label="project1.description.line2"></span><br />
-                <span data-label="project1.description.line3"></span>
-              </div>
-              <div class="row align-items-start mb-2">
-                <div class="col-md-2 fw-bold">REACTy note:</div>
-                <div class="col-md-10" data-label="project1.reactynote1"></div>
-              </div>
-              <div class="row align-items-start">
-                <div class="col-md-2 fw-bold">REACTy note:</div>
-                <div class="col-md-10" data-label="project1.reactynote2"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="spacer-vertical"></div>
-
-        <div class="accordion" data-code="proj2">
-          <div
-            class="d-flex justify-content-between align-items-center accordion-header"
-          >
-            <h4 data-label="project2.name"></h4>
-            <button class="accordion-toggle" aria-expanded="false">🔽</button>
-          </div>
-
-          <div class="d-flex align-items-center">
-            <div class="d-flex accordion-content-coll project">
-              <div class="col-left">
-                <img
-                  src="/assets/images/TodoList-csharp.png"
-                  alt="TodoList AngularJS thumbnail"
-                  class="thumbnail"
-                />
-              </div>
-              <div class="col-right">
-                <div class="d-flex gap-2 links">
-                  <a
-                    href="https://github.com/AleDeP10/TodoList"
-                    target="_blank"
-                  >
-                    Repo
-                  </a>
-                  <a
-                    href="https://frontend-angularjs.onrender.com"
-                    target="_blank"
-                  >
-                    Live
-                  </a>
-                </div>
-                <div
-                  class="description"
-                  data-label="project2.description.short"
-                ></div>
-                <div class="d-flex gap-2 technologies">
-                  <span>ASP.NET</span>• <span>C#</span>•
-                  <span>Entity framework</span>•
-                  <span>Swagger</span>
+                <div class="project-desktop">
+                  <div class="col-left">
+                    <img
+                      src="/assets/images/TodoList-angularjs.png"
+                      alt="TodoList AngularJS thumbnail"
+                      class="thumbnail"
+                    />
+                  </div>
+                  <div class="col-right">
+                    <div class="d-flex gap-2 links">
+                      <a
+                        href="https://github.com/AleDeP10/TodoList"
+                        target="_blank"
+                      >
+                        Repo
+                      </a>
+                      <a
+                        href="https://frontend-angularjs.onrender.com"
+                        target="_blank"
+                      >
+                        Live
+                      </a>
+                    </div>
+                    <div
+                      class="description"
+                      data-label="project1.description.short"
+                    ></div>
+                    <div class="d-flex flex-wrap gap-2 technologies">
+                      <span>AngularJS</span><span>Bootstrap</span>
+                      <span>Redux-classic</span><span>Scss</span>
+                      <span>Nginx</span><span>Docker</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="d-none flex-column accordion-content-exp project">
+              <div class="d-flex gap-2 mb-2 links">
+                <span data-label="projects.repo"></span>
+                <a href="https://github.com/AleDeP10/TodoList" target="_blank">
+                  Repo
+                </a>
+                •
+                <span data-label="projects.live"></span>
+                <a
+                  href="https://frontend-angularjs.onrender.com"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </div>
+              <img
+                src="/assets/images/TodoList-angularjs.png"
+                alt="TodoList AngularJS full image"
+                class="full-image"
+              />
+              <span class="fw-bold" data-label="projects.technologies"></span>
+              <div class="d-flex gap-2 technologies mb-2">
+                <span>AngularJS</span><span>Bootstrap</span>
+                <span>Redux-classic</span><span>Scss</span> <span>Nginx</span
+                ><span>Docker</span>
+              </div>
+              <div class="text-start">
+                <div class="mb-2">
+                  <h6 class="fw-bold" data-label="projects.description"></h6>
+                  <span data-label="project1.description.line1"></span><br />
+                  <span data-label="project1.description.line2"></span><br />
+                  <span data-label="project1.description.line3"></span>
+                </div>
+                <div class="row align-items-start mb-2">
+                  <div class="col-md-2 fw-bold">REACTy note:</div>
+                  <div
+                    class="col-md-10"
+                    data-label="project1.reactynote1"
+                  ></div>
+                </div>
+                <div class="row align-items-start">
+                  <div class="col-md-2 fw-bold">REACTy note:</div>
+                  <div
+                    class="col-md-10"
+                    data-label="project1.reactynote2"
+                  ></div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="d-none flex-column accordion-content-exp project">
-            <div class="d-flex gap-2 mb-2 links">
-              <span data-label="projects.repo"></span>
-              <a href="https://github.com/AleDeP10/TodoList" target="_blank">
-                Repo
-              </a>
-              •
-              <span data-label="projects.live"></span>
-              <a
-                href="https://backend-csharp-25bo.onrender.com/swagger"
-                target="_blank"
-              >
-                Live
-              </a>
+
+          <div class="spacer-vertical"></div>
+
+          <div class="accordion" data-code="proj2">
+            <div
+              class="d-flex justify-content-between align-items-center accordion-header"
+            >
+              <h4 data-label="project2.name"></h4>
+              <button class="accordion-toggle" aria-expanded="false">🔽</button>
             </div>
-            <img
-              src="/assets/images/TodoList-csharp.png"
-              alt="TodoList AngularJS full image"
-              class="full-image"
-            />
-            <div class="d-flex gap-2 mb-2 technologies">
-              <span data-label="projects.technologies"></span>
-              <span>ASP.NET</span>• <span>C#</span>•
-              <span>EntityFramework</span>•
-              <span>Swagger</span>
+
+            <div class="d-flex align-items-center">
+              <div class="d-flex flex-column accordion-content-coll">
+                <div class="project-mobile">
+                  <div class="d-flex">
+                    <div class="col-left">
+                      <img
+                        src="/assets/images/TodoList-csharp.png"
+                        alt="TodoList AngularJS thumbnail"
+                        class="thumbnail"
+                      />
+                    </div>
+                    <div class="col-right">
+                      <div class="d-flex flex-column gap-2 links">
+                        <a
+                          href="https://github.com/AleDeP10/TodoList"
+                          target="_blank"
+                        >
+                          Repo
+                        </a>
+                        <a
+                          href="https://backend-csharp-25bo.onrender.com/swagger/index.html"
+                          target="_blank"
+                        >
+                          Live
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="description"
+                    data-label="project2.description.short"
+                  ></div>
+                  <div class="d-flex gap-2 technologies">
+                    <span>ASP.NET</span><span>C#</span>
+                    <span>Entity framework</span>
+                    <span>Swagger</span><span>Docker</span>
+                  </div>
+                </div>
+                <div class="project-desktop">
+                  <div class="col-left">
+                    <img
+                      src="/assets/images/TodoList-csharp.png"
+                      alt="TodoList AngularJS thumbnail"
+                      class="thumbnail"
+                    />
+                  </div>
+                  <div class="col-right">
+                    <div class="d-flex gap-2 links">
+                      <a
+                        href="https://github.com/AleDeP10/TodoList"
+                        target="_blank"
+                      >
+                        Repo
+                      </a>
+                      <a
+                        href="https://backend-csharp-25bo.onrender.com/swagger/index.html"
+                        target="_blank"
+                      >
+                        Live
+                      </a>
+                    </div>
+                    <div
+                      class="description"
+                      data-label="project2.description.short"
+                    ></div>
+                    <div class="d-flex gap-2 technologies">
+                      <span>ASP.NET</span><span>C#</span>
+                      <span>Entity framework</span>
+                      <span>Swagger</span><span>Docker</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="text-start">
-              <div>
-                <h6 class="fw-bold" data-label="projects.description"></h6>
-                <span data-label="project2.description.line1"></span><br />
-                <span data-label="project2.description.line2"></span><br />
-                <span data-label="project2.description.line3"></span>
+            <div class="d-none flex-column accordion-content-exp project">
+              <div class="d-flex gap-2 mb-2 links">
+                <span data-label="projects.repo"></span>
+                <a href="https://github.com/AleDeP10/TodoList" target="_blank">
+                  Repo
+                </a>
+                •
+                <span data-label="projects.live"></span>
+                <a
+                  href="https://backend-csharp-25bo.onrender.com/swagger"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </div>
+              <img
+                src="/assets/images/TodoList-csharp.png"
+                alt="TodoList AngularJS full image"
+                class="full-image"
+              />
+              <span class="fw-bold" data-label="projects.technologies"></span>
+              <div class="d-flex gap-2 mb-2 technologies">
+                <span>ASP.NET</span><span>C#</span>
+                <span>EntityFramework</span>
+                <span>Swagger</span><span>Docker</span>
+              </div>
+              <div class="text-start">
+                <div>
+                  <h6 class="fw-bold" data-label="projects.description"></h6>
+                  <span data-label="project2.description.line1"></span><br />
+                  <span data-label="project2.description.line2"></span><br />
+                  <span data-label="project2.description.line3"></span>
+                </div>
               </div>
             </div>
           </div>

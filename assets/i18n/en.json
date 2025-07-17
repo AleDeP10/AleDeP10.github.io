@@ -16,8 +16,8 @@
 
   "projects.header": "🎨 Relevant projects",
   "projects.details": "The projects showcased in this portfolio represent a selection of the most meaningful experiences and the skills acquired throughout my career. Expand the accordions for more details. You can view them in action by clicking on the live link!",
-  "projects.repo": "Source code Github repository: ",
-  "projects.live": "Live execution of the project: ",
+  "projects.repo": "Github repository: ",
+  "projects.live": "Live execution: ",
   "projects.technologies": "Technologies involved: ",
   "projects.description": "Description",
 
