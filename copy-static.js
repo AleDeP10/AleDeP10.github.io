@@ -12,8 +12,6 @@ async function main() {
   await copy("dist/style.css", "style.css");
 
   console.log("✅ Static files copied.");
-
-
 }
 
 main().catch((err) => {

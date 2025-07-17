@@ -16,7 +16,7 @@
 
   "projects.header": "🎨 Progetti rilevanti",
   "projects.details": "I progetti inclusi nel portfolio rappresentano una selezione delle esperienze più significative e delle competenze acquisite nel corso della carriera. Espandi gli accordion per maggiori informazioni. Puoi vederli in esecuzione cliccando sul live link!",
-  "projects.repo": "Repository github: ",
+  "projects.repo": "Repository GitHub: ",
   "projects.live": "Esecuzione live: ",
   "projects.technologies": "Tecnologie coinvolte: ",
   "projects.description": "Descrizione ",
