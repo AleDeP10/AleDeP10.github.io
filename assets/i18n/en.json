@@ -33,5 +33,11 @@
   "project2.description.short": "API layer for managing a minimal database with User and Task. Accessible via Swagger.",
   "project2.description.line1": "Minimal ASP.NET implementation of the APIs required for the TodoList project, with documentation and testing available via the Swagger page.",
   "project2.description.line2": "Scaffolding was built with EntityFramework based on a database designed for a previous project, including the User and Task entities and providing the necessary methods to perform CRUD operations.",
-  "project2.description.line3": "The task search functionality allows searching by description using partial match, filtering by assigned user, and specifying an array of states (\"TODO\", \"IN PROGRESS\", \"DONE\") to display."
+  "project2.description.line3": "The task search functionality allows searching by description using partial match, filtering by assigned user, and specifying an array of states (\"TODO\", \"IN PROGRESS\", \"DONE\") to display.",
+
+  "project9.name": "Playground - Test project for new technologies",
+  "project9.description.short": "Complete example of interaction with a NodeJS backend with authenticated APIs.",
+  "project9.description.line1": "The Playground Frontend project is a demo application developed with React and a Node.js backend, designed to illustrate the integration of technologies in an incremental context. The main feature is a TodoList, which allows CRUD operations on a list of tasks saved in a Postgres database, with authenticated access through a login system.",
+  "project9.description.line2": "The interface is a single-page application with navigation managed by a top menu, which includes useful links and modals for images and team information. The main screen allows you to verify the backend functionality and database connection through unauthenticated endpoints.",
+  "project9.description.line3": "The TodoList offers tools to create, edit, filter, and delete tasks, with a caching system based on Zustand to optimize interactions. Authenticated users can access advanced features, while an automatic logout system ensures the security of access tokens."
 }

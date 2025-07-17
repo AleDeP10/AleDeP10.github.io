@@ -30,8 +30,14 @@
   "project1.reactynote2": "Per riutilizzare il codice delle modali, si ha inserito direttamente il codice HTML del contenuto all'interno del tag, seguendo un approccio simile a quello utilizzato in React con la proprietà $children per popolare il contenuto.",
 
   "project2.name": "TodoList - Implementazione del backend .NET",
-  "project2.description.short": "API layer for managing a minimal database with User and Task. Accessible via Swagger.",
+  "project2.description.short": "Strato API per la gestione di un database minimale con entità User e Task. Accessibile tramite Swagger.",
   "project2.description.line1": "Implementazione minimale con ASP.NET delle API necessarie al funzionamento del progetto TodoList, documentazione e test ottenibili sulla pagina Swagger.",
   "project2.description.line2": "Lo scaffolding è stato realizzato con EntityFramework a partire da un database sviluppato per un precedente progetto e comprende le entità User e Task, fornendo i metodi necessari ad eseguirvi le operazioni CRUD.",
-  "project2.description.line3": "Per la ricerca dei Task si ha previsto la possibilità di cercare la descrizione in like, restringere a quelli assegnati ad un certo utente ed indicare in un array gli stati (\"TODO\", \"IN PROGRESS\", \"DONE\") che si vuol visualizzare."
+  "project2.description.line3": "Per la ricerca dei Task si ha previsto la possibilità di cercare la descrizione in like, restringere a quelli assegnati ad un certo utente ed indicare in un array gli stati (\"TODO\", \"IN PROGRESS\", \"DONE\") che si vuol visualizzare.",
+
+  "project9.name": "Playground - Progetto di test nuove tecnologie",
+  "project9.description.short": "Esempio completo di interazione con un backend NodeJS con API autenticate.",
+  "project9.description.line1": "Il progetto Playground Frontend è un'applicazione dimostrativa sviluppata con React e un backend Node.js, progettata per illustrare l'integrazione di tecnologie in un contesto incrementale. La funzionalità principale è una TodoList, che consente operazioni CRUD su una lista di attività salvate in un database Postgres, con accesso autenticato tramite un sistema di login.",
+  "project9.description.line2": "L'interfaccia è una single-page application con navigazione gestita da un menu superiore, che include collegamenti utili e modali per immagini e informazioni sul team. La schermata principale permette di verificare il funzionamento del backend e la connessione al database tramite endpoint non autenticati.",
+  "project9.description.line3": "La TodoList offre strumenti per creare, modificare, filtrare e cancellare attività, con un sistema di caching basato su Zustand per ottimizzare le interazioni. Gli utenti autenticati possono accedere a funzionalità avanzate, mentre un sistema di logout automatico garantisce la sicurezza dei token di accesso."
 }
