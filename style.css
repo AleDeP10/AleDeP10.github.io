@@ -16,23 +16,34 @@ a:hover {
   text-decoration: underline;
 }
 
-ul {
+ol {
   list-style-type: none;
   padding-left: 0;
+}
+
+ul {
+  padding-left: 1.75rem !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.5rem !important;
+  list-style-position: outside;
+}
+
+ul li {
+  margin-bottom: 0.25rem !important;
 }
 
 .pageContainer {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 899px) {
   .pageContainer {
     width: 100%;
     margin: 4px auto;
     padding: 6px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .pageContainer {
     width: 80%;
     margin: 20px auto;
@@ -67,7 +78,7 @@ ul {
   padding: 1rem 1.5rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 899px) {
   .profile-mobile {
     display: block;
   }
@@ -75,7 +86,7 @@ ul {
     display: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .profile-mobile {
     display: none;
   }
@@ -109,6 +120,9 @@ ul {
   justify-content: center;
   gap: 1.5rem;
 }
+.skills span {
+  width: 130px;
+}
 
 .list-left {
   text-align: right;
@@ -125,7 +139,8 @@ ul {
   margin-right: auto;
 }
 
-.project, .project-mobile {
+.project,
+.project-mobile {
   display: block;
   padding: 1rem;
 }
@@ -135,7 +150,7 @@ ul {
   padding: 1rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 899px) {
   .project-mobile {
     display: block;
   }
@@ -143,7 +158,7 @@ ul {
     display: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .project-mobile {
     display: none;
   }
@@ -151,22 +166,32 @@ ul {
     display: flex;
   }
 }
+.full-image {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 899px) {
+  .full-image {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 900px) {
+  .full-image {
+    width: 90%;
+  }
+}
 .thumbnail {
   margin-right: 1rem;
 }
 
-.full-image {
-  width: 90%;
-  margin-left: 5%;
-  margin-bottom: 1rem;
-}
-
-@media (max-width: 767px) {
+@media (max-width: 899px) {
   .thumbnail {
     width: 120px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .thumbnail {
     width: 180px;
   }
