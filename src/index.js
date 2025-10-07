@@ -158,7 +158,7 @@ const initPortfolio = async () => {
       "project8",
       "assets/images/portfolio.png",
       {
-        readme: "https://github.com/AleDeP10/AleDeP10.github.io/README.md",
+        readme: "https://github.com/AleDeP10/AleDeP10.github.io/blob/main/README.md",
         repo: "https://github.com/AleDeP10/AleDeP10.github.io",
       },
       ["HTML", "Bootstrap", "SCSS", "vanilla-js"],
