@@ -65,6 +65,7 @@ ul li {
 
 .section {
   background-color: #F7F9FC;
+  border-radius: 8px;
   padding: 1rem 1.5rem;
 }
 
@@ -92,6 +93,22 @@ ul li {
   }
   .profile-desktop {
     display: block;
+  }
+}
+@media (max-width: 899px) {
+  .information-mobile {
+    display: block !important;
+  }
+  .information-desktop {
+    display: none !important;
+  }
+}
+@media (min-width: 900px) {
+  .information-mobile {
+    display: none !important;
+  }
+  .information-desktop {
+    display: block !important;
   }
 }
 .profile-row {
