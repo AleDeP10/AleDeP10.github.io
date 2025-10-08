@@ -111,6 +111,17 @@ ul li {
     display: block !important;
   }
 }
+.personal-picture {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.personal-picture.loaded {
+  visibility: visible;
+  opacity: 1;
+}
+
 .profile-row {
   display: flex;
   flex-direction: row;

@@ -17,11 +17,11 @@
  * - Exposes language methods to the global window for manual switching
  */
 
- // Import localization utilities and project template generator
+// Import localization utilities and project template generator
 import { loadLang, localize, detectLang, labels } from "./i18n.js";
 import { projectTemplate } from "./projectTemplate.js";
 
- // Pre-activates the language button based on detected language
+// Pre-activates the language button based on detected language
 const preactivateLang = () => {
   // Detect current language
   const currentLang = detectLang();
@@ -37,7 +37,7 @@ const preactivateLang = () => {
   }
 };
 
- // Activates a language button and stores the selection
+// Activates a language button and stores the selection
 function activateLang(selectedBtn) {
   // Remove 'active' class from all language buttons
   document.querySelectorAll('[aria-label="Language"] .btn').forEach((btn) => {
@@ -52,7 +52,31 @@ function activateLang(selectedBtn) {
   localStorage.setItem("lang", langCode);
 }
 
- // Initializes the portfolio section with projects and accordion behavior
+// Returns a random personal picture filename like "ADPn.jpg"
+function personalPicture() {
+  const totalPictures = 7;
+  const index = Math.floor(Math.random() * totalPictures) + 1;
+  return `/assets/images/ADP${index}.jpg?v=${Date.now()}`;
+}
+
+// Loads a random personal picture into currently visible image
+function updateVisiblePersonalPicture() {
+  const pictureElements = document.querySelectorAll(".personal-picture");
+
+  pictureElements.forEach((imgEl) => {
+    const style = window.getComputedStyle(imgEl);
+    if (style.display !== "none") {
+      const img = new Image();
+      img.onload = () => {
+        imgEl.src = img.src;
+        imgEl.classList.add("loaded");
+      };
+      img.src = personalPicture();
+    }
+  });
+}
+
+// Initializes the portfolio section with projects and accordion behavior
 const initPortfolio = async () => {
   // Detect and load current language
   const currentLang = detectLang();
@@ -158,7 +182,8 @@ const initPortfolio = async () => {
       "project8",
       "assets/images/portfolio.png",
       {
-        readme: "https://github.com/AleDeP10/AleDeP10.github.io/blob/main/README.md",
+        readme:
+          "https://github.com/AleDeP10/AleDeP10.github.io/blob/main/README.md",
         repo: "https://github.com/AleDeP10/AleDeP10.github.io",
       },
       ["HTML", "Bootstrap", "SCSS", "vanilla-js"],
@@ -170,6 +195,10 @@ const initPortfolio = async () => {
   projects.forEach((project) =>
     document.getElementById("portfolio-section").appendChild(project)
   );
+
+  // Loads into mobile and desktop profiles a random personal picture named like "ADPn.jpg"
+  updateVisiblePersonalPicture();
+  //updatePersonalPictures();
 
   // Select all accordion components
   const accordions = document.querySelectorAll(".accordion");
@@ -223,10 +252,10 @@ const initPortfolio = async () => {
   });
 };
 
- // Run portfolio initialization when DOM is ready
+// Run portfolio initialization when DOM is ready
 document.addEventListener("DOMContentLoaded", initPortfolio);
 
- // Expose language methods to global scope for manual switching
+// Expose language methods to global scope for manual switching
 window.detectLang = detectLang;
 window.localize = localize;
 window.loadLang = loadLang;
