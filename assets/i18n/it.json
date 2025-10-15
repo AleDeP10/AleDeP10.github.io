@@ -51,8 +51,9 @@
   "project5.name": "Implementazione frontend Next.js",
   "project5.description.short": "Applicazione multilingua e tematizzabile per la gestione utenti e attività.",
   "project5.description.line1": "L’interfaccia Next.js offre una gestione completa dei utenti e task, con creazione, modifica, eliminazione e controllo di ruoli e stati. Il sistema di validazione avanzata impedisce transizioni non consentite, come l’assegnazione di task IN PROGRESS a utenti bloccati.",
-  "project5.description.line2": "Il tema è personalizzabile (chiaro, scuro, custom) e la lingua può essere cambiata dinamicamente tra italiano e inglese. L’app utilizza un UI Kit condiviso con componenti riutilizzabili, hooks e provider per garantire coerenza visiva e comportamentale.",
+  "project5.description.line2": "Il tema è selezionabile tra tre disponibili (midnight, skyline, sunleaf) e la lingua può essere cambiata dinamicamente tra italiano e inglese. L’app utilizza un UI Kit condiviso con componenti riutilizzabili, hooks e provider per garantire coerenza visiva e comportamentale.",
   "project5.description.line3": "Il frontend è integrato con Redux Toolkit e TanStack Query per una gestione efficiente dello stato e delle chiamate asincrone.",
+  "project5.description.line4": "La landing page è una Dashboard che evidenzia gli stati di task e utenti, le assegnazioni attive e le relazioni visive tra elementi, offrendo una panoramica interattiva e aggiornata.",
   "project5.note1": "La logica di filtro è gestita tramite Redux Toolkit, e vi sono validazioni integrate che impediscono l’avanzamento di un task se l’assegnatario è bloccato.",
   "project5.note2": "La compatibilità con Storybook è garantita dallo stesso shim locale di Yarn 1.22.19, necessario per mantenere coerenza tra ambienti e tool condivisi.",
 
