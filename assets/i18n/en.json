@@ -51,10 +51,10 @@
   "project5.name": "Next.js Frontend Implementation",
   "project5.description.short": "Multilingual and themeable application for user and task management.",
   "project5.description.line1": "The Next.js interface offers full management of users and tasks, including creation, editing, deletion, and control of roles and states. The advanced validation system prevents unauthorized transitions, such as assigning IN PROGRESS tasks to blocked users.",
-  "project5.description.line2": "The theme is selectable among three options (midnight, skyline, sunleaf), and the language can be dynamically switched between Italian and English. The app uses a shared UI Kit with reusable components, hooks, and providers to ensure visual and behavioral consistency.",
+  "project5.description.line2": "The theme is selectable among three options (midnight, skyline, sunleaf), and the language can be dynamically switched between Italian and English.",
   "project5.description.line3": "The frontend integrates Redux Toolkit and TanStack Query for efficient state and asynchronous call management.",
   "project5.description.line4": "The landing page is a Dashboard that highlights the status of tasks and users, active assignments, and visual relationships between elements, offering an interactive and up-to-date overview.",
-  "project5.note1": "Filtering logic is handled via Redux Toolkit, with integrated validations that prevent task progression if the assignee is blocked.",
+  "project5.note1": "The app uses a shared UI Kit with reusable components, hooks, and providers to ensure visual and behavioral consistency. The preferencies are keeped inside a localStorage.",
   "project5.note2": "Compatibility with Storybook is ensured by the same local Yarn 1.22.19 shim, necessary to maintain consistency across environments and shared tooling.",
 
   "project6.name": "AngularJS + Redux Frontend Implementation",
