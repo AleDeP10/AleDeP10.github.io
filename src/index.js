@@ -180,6 +180,17 @@ const initPortfolio = async () => {
     ),
     projectTemplate(
       "project8",
+      "assets/images/todolist-be-springboot.png",
+      {
+        readme:
+          "https://github.com/AleDeP10/TodoList/tree/main/todolist-be-springboot/README.md",
+        repo: "https://github.com/AleDeP10/TodoList/tree/main/todolist-be-springboot",
+      },
+      ["Java 17", "Spring Boot 3", "Hibernate", "JUnit"],
+      labels
+    ),
+    projectTemplate(
+      "project9",
       "assets/images/portfolio.png",
       {
         readme:

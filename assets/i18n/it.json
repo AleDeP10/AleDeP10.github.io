@@ -64,15 +64,21 @@
   "project6.note1": "Per abilitare un caching nell'applicazione dei filtri è stato introdotto Redux-classic per il mantenimento dello stato in linea con le applicazioni React.",
   "project6.note2": "Per riutilizzare il codice delle modali, si ha inserito direttamente il codice HTML del contenuto all'interno del tag, seguendo un approccio simile a quello utilizzato in React con la proprietà $children per popolare il contenuto.",
 
-  "project7.name": "Implementazione del backend .NET",
+  "project7.name": "Implementazione del backend ASP.NET",
   "project7.description.short": "Strato API per la gestione di un database minimale con entità User e Task. Accessibile tramite Swagger.",
   "project7.description.line1": "Implementazione minimale con ASP.NET delle API necessarie al funzionamento del progetto TodoList, documentazione e test ottenibili sulla pagina Swagger.",
   "project7.description.line2": "Lo scaffolding è stato realizzato con Entity Framework a partire dal database e comprende le entità User e Task, fornendo i metodi necessari ad eseguirvi le operazioni CRUD.",
   "project7.description.line3": "Per la ricerca dei Task si ha previsto la possibilità di cercare la descrizione in like, restringere a quelli assegnati ad un certo utente ed indicare in un array gli stati che si vuol visualizzare. Analoghi filtri sono stati predisposti per gli utenti.",
 
-  "project8.name": "Implementazione Portfolio",
-  "project8.description.short": "Informazioni e curiosità sullo sviluppo di questo stesso sito.",
-  "project8.description.line1": "Il portfolio è stato generato riutilizzando il codice del frontend legacy scritto con AngularJS. Le tecnologie coinvolte sono limitate ad HTML, Bootstrap, SCSS, oltre a una bella dose di vanilla JavaScript.",
-  "project8.description.line2": "Sin dal principio si è adottato un approccio mobile-first, progettando due layout intercambiati da una media query per ottenere la visualizzazione ottimale a seconda del viewport. Questo sistema, testato con soddisfazione per la sezione Profile, è stato inizialmente adottato anche per l'implementazione dei progetti, al tempo limitati a be-csharp e fe-angularjs.",
-  "project8.description.line3": "Quando si è dovuto integrare i nuovi progetti, è apparso evidente che mantenere una simile duplicazione HTML si sarebbe tradotto in un incubo manutentivo. Si è adottato quindi un approccio algoritmico, delegando a JavaScript l'iniezione degli elementi mediante la manipolazione diretta del DOM."
+  "project8.name": "ToDoList Backend Spring Boot",
+  "project8.description.short": "Backend API RESTful per la gestione di utenti e task, basato su Spring Boot e PostgreSQL.",
+  "project8.description.line1": "Implementazione backend con Spring Boot per l’applicazione ToDoList, che espone API REST per operazioni CRUD su utenti e task, con persistenza su database PostgreSQL tramite Hibernate.",
+  "project8.description.line2": "Include filtri avanzati, assegnazione task e gestione robusta degli errori.",
+  "project8.note1": "Il progetto segue un approccio Test-Driven Development (TDD), scrivendo i test prima dello sviluppo delle componenti chiave per garantire qualità, affidabilità e facilità di manutenzione.",
+
+  "project9.name": "Implementazione Portfolio",
+  "project9.description.short": "Informazioni e curiosità sullo sviluppo di questo stesso sito.",
+  "project9.description.line1": "Il portfolio è stato generato riutilizzando il codice del frontend legacy scritto con AngularJS. Le tecnologie coinvolte sono limitate ad HTML, Bootstrap, SCSS, oltre a una bella dose di vanilla JavaScript.",
+  "project9.description.line2": "Sin dal principio si è adottato un approccio mobile-first, progettando due layout intercambiati da una media query per ottenere la visualizzazione ottimale a seconda del viewport. Questo sistema, testato con soddisfazione per la sezione Profile, è stato inizialmente adottato anche per l'implementazione dei progetti, al tempo limitati a be-csharp e fe-angularjs.",
+  "project9.description.line3": "Quando si è dovuto integrare i nuovi progetti, è apparso evidente che mantenere una simile duplicazione HTML si sarebbe tradotto in un incubo manutentivo. Si è adottato quindi un approccio algoritmico, delegando a JavaScript l'iniezione degli elementi mediante la manipolazione diretta del DOM."
 }

@@ -64,15 +64,21 @@
   "project6.note1": "To enable caching in filter application, Redux Classic was introduced to maintain state in line with React applications.",
   "project6.note2": "To reuse modal code, the HTML content was inserted directly within the tag, following an approach similar to React’s $children property for populating content.",
 
-  "project7.name": ".NET Backend Implementation",
+  "project7.name": "ASP.NET Backend Implementation",
   "project7.description.short": "API layer for managing a minimal database with User and Task entities. Accessible via Swagger.",
   "project7.description.line1": "Minimal ASP.NET implementation of the APIs required for the TodoList project, with documentation and testing available on the Swagger page.",
   "project7.description.line2": "Scaffolding was generated with Entity Framework from the database and includes the User and Task entities, providing the necessary methods to perform CRUD operations.",
   "project7.description.line3": "Task search supports filtering by description (like), assignee, and an array of desired states. Similar filters are available for users.",
 
-  "project8.name": "Portfolio Implementation",
-  "project8.description.short": "Insights and curiosities about the development of this very site.",
-  "project8.description.line1": "The portfolio was built by reusing legacy frontend code originally written in AngularJS. The technologies involved are limited to HTML, Bootstrap, SCSS, and a generous dose of vanilla JavaScript.",
-  "project8.description.line2": "From the beginning, a mobile-first approach was adopted, designing two layouts toggled via media queries to achieve optimal display based on the viewport. This system, successfully tested in the Profile section, was initially applied to the project implementations as well, which at the time included only be-csharp and fe-angularjs.",
-  "project8.description.line3": "When new projects had to be integrated, it became clear that maintaining such HTML duplication would lead to a maintenance nightmare. An algorithmic approach was therefore adopted, delegating element injection to JavaScript through direct DOM manipulation."
+  "project8.name": "ToDoList Backend Spring Boot",
+  "project8.description.short": "RESTful backend API for managing users and tasks, built with Spring Boot and PostgreSQL.",
+  "project8.description.line1": "Spring Boot backend implementation for the ToDoList application, exposing REST APIs for CRUD operations on users and tasks, with persistence on PostgreSQL database via Hibernate.",
+  "project8.description.line2": "Includes advanced filters, task assignment, and robust error handling.",
+  "project8.note1": "The project follows a Test-Driven Development (TDD) approach, writing tests before developing key components to ensure quality, reliability, and maintainability.",
+
+  "project9.name": "Portfolio Implementation",
+  "project9.description.short": "Insights and curiosities about the development of this very site.",
+  "project9.description.line1": "The portfolio was built by reusing legacy frontend code originally written in AngularJS. The technologies involved are limited to HTML, Bootstrap, SCSS, and a generous dose of vanilla JavaScript.",
+  "project9.description.line2": "From the beginning, a mobile-first approach was adopted, designing two layouts toggled via media queries to achieve optimal display based on the viewport. This system, successfully tested in the Profile section, was initially applied to the project implementations as well, which at the time included only be-csharp and fe-angularjs.",
+  "project9.description.line3": "When new projects had to be integrated, it became clear that maintaining such HTML duplication would lead to a maintenance nightmare. An algorithmic approach was therefore adopted, delegating element injection to JavaScript through direct DOM manipulation."
 }
