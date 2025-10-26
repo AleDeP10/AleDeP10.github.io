@@ -168,12 +168,12 @@ const initPortfolio = async () => {
     ),
     projectTemplate(
       "project7",
-      "/assets/images/todolist-be-csharp.png",
+      "/assets/images/todolist-be-aspnet.png",
       {
         readme:
           "https://github.com/AleDeP10/TodoList/tree/main/backend-csharp/README.md",
         repo: "https://github.com/AleDeP10/TodoList/tree/main/backend-csharp",
-        live: "https://todolist-be-csharp.onrender.com/",
+        live: "https://todolist-be-aspnet.onrender.com/",
       },
       ["ASP.NET", "C#", "Entity Framework", "Swagger"],
       labels
